@@ -11,7 +11,6 @@
 @use "parts/spinners";
 @use "parts/darkmode";
 @use "parts/menu";
-@use "parts/love";
 @use "parts/preview_text_filter";
 @use "parts/watch_table";
 @use "parts/watch_table-mobile";
@@ -53,19 +52,6 @@ body {
 a {
   text-decoration: none;
   color: var(--color-link);
-}
-
-a.github-link {
-  color: var(--color-icon-github);
-  margin: 0 1rem 0 0.5rem;
-
-  svg {
-    fill: currentColor;
-  }
-
-  &:hover {
-    color: var(--color-icon-github-hover);
-  }
 }
 
 #search-q {

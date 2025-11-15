@@ -45,11 +45,6 @@ $(document).ready(function () {
       };
     }
 
-    $('#heart-us').click(function () {
-        $("#overlay").toggleClass('visible');
-        heartpath.style.fill = document.getElementById("overlay").classList.contains("visible") ? '#ff0000' : 'var(--color-background)';
-    });
-
     setInterval(function () {
         $('body').toggleClass('spinner-active', $.active > 0);
     }, 2000);
